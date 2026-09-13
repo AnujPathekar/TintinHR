@@ -1,0 +1,7 @@
+[
+  {"id":"policy-1","user":"employee@tintinhr.demo","question":"How many casual leave days are allocated each year?","expected_terms":["12"],"expected_source":"Leave_Policy.txt","must_cite":true,"must_abstain":false},
+  {"id":"policy-2","user":"employee@tintinhr.demo","question":"Can unused casual leave be carried forward?","expected_terms":["cannot","carry"],"expected_source":"Leave_Policy.txt","must_cite":true,"must_abstain":false},
+  {"id":"employee-1","user":"employee@tintinhr.demo","question":"How many casual leaves do I have left?","expected_terms":["7"],"expected_source":null,"must_cite":false,"must_abstain":false},
+  {"id":"hybrid-1","user":"employee@tintinhr.demo","question":"Based on my balance and policy, how much casual leave is available and can I carry it forward?","expected_terms":["7","cannot"],"expected_source":"Leave_Policy.txt","must_cite":true,"must_abstain":false},
+  {"id":"abstain-1","user":"employee@tintinhr.demo","question":"Does the company reimburse pet grooming?","expected_terms":[],"expected_source":null,"must_cite":false,"must_abstain":true}
+]
